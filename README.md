@@ -8,7 +8,9 @@ This is a simple example of solving Gridworld problems using a special type of R
 
 # Goal
 I've add some features in setting different exited state in the environment.
+
 The R ploting is to show the differences between Q-values of the same state between two different taskes(envir with different exit state).
+
 My goal is to find whether it's possible to find a metro-system like graph structure to generalize the commonlly used path in the same enviroment (despite having different tasks).
 
 # Dependencies
