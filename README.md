@@ -5,7 +5,12 @@ This is a simple example of solving Gridworld problems using a special type of R
 	● Rewards: Each step gives a negative reward of -0.04. The red cell gives a negative reward of -1. The green one gives a positive reward of +1.
 	● States: Each cell is a state the agent can be.
 	● Actions: There are only 4 actions. Up, Down, Right, Left.
-  
+
+# Goal
+I've add some features in setting different exited state in the environment.
+The R ploting is to show the differences between Q-values of the same state between two different taskes(envir with different exit state).
+My goal is to find whether it's possible to find a metro-system like graph structure to generalize the commonlly used path in the same enviroment (despite having different tasks).
+
 # Dependencies
 * `tkinter`
 If on Ubuntu you can install tkinter for python2.7 with ``$ sudo apt-get install python-tk``
@@ -17,3 +22,5 @@ Run `python Learner.py <Number of Rows> <Number of Columns>` in terminal to see 
 This is code is highly based on:
 1. [Youtube Tutorial](https://youtu.be/A5eihauRQvo) by [Siraj Raval](https://github.com/llSourcell).
 2. Original code [Q-learning-Gridworld](abhiksingla/Q-learning-Gridworld) by abhiksingla.
+
+
